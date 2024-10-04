@@ -1,0 +1,36 @@
+.but{
+    width: 50px;
+}
+#red{
+    background-color: red;
+    color: white;
+}
+#green{
+    background-color: green;
+    color: white;
+}
+#blue{
+    background-color: blue;
+    color: white;
+}
+#reset{
+    background-color: white;
+    color: black;
+}
+
+#con{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#next{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+#next:hover{
+    color: rgb(255, 1, 1);
+}
